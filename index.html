@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Timed Math Game</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Timed Math Game</h1>
+        <button id="start">Start Game</button>
+        <div id="game" style="display:none;">
+            <p id="problem">Problem #0: 0 + 0 = </p>
+            <input type="text" id="guess">
+            <button id="submitGuess">Submit Answer</button>
+        </div>
+        <div id="result" style="display:none;">
+            <h2>Nice Work! You finished in <span id="totalTime"></span> seconds!</h2>
+            <button id="restart">Restart Game</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
